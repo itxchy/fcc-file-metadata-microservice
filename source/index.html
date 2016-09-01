@@ -28,15 +28,22 @@
             <p>Upload any file below, and the size of the file in bytes will be returned as JSON.</p>
         </header>
 
-        <main class="upload">
+<!--         <main class="upload">
+
             <label class="choose-file-button">
                 <input id="choose-file-btn" type="file"/>
                 <i class="fa fa-file" aria-hidden="true"></i> Choose a File...
             </label>
             <button id="upload-btn" class="upload-button"><i class="fa fa-paper-plane" aria-hidden="true"></i>
  Upload</button>
+
             <p class="filename-line"><strong>File: </strong><span class="filename">Your filename will show up here...</span></p>
-        </main>
+        </main> -->
+
+        <form method="post" enctype="multipart/form-data" action="/upload">
+            <input type="file" name="fileUpload">
+            <button type="submit" class="btn btn-success submit-btn">Submit</button>
+        </form>
 
         <script 
             src="http://code.jquery.com/jquery-2.2.3.min.js"   

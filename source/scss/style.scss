@@ -2,33 +2,14 @@ main {
     margin-top: 2rem;
 }
 
-.upload-button {
-    display: inline-block;
-    border: 1px solid #ddd;
-    border-radius: 6%;
-    display: inline-block;
-    padding: 7px 12px;
-    background-color: #47BEAA;
-    font-weight: 800;
+form {
+    width: 30rem;
+    margin-top: 2rem;
+    padding: 1rem;
+    border: 1px solid #AAD;
+    border-radius: 8px;
 }
 
-input[type="file"] {
-    display: none;
-}
-
-.choose-file-button {
-    display: inline-block;
-    border: 1px solid #ddd;
-    border-radius: 6%;
-    padding: 7px 12px;
-    cursor: pointer;
-}
-
-.filename-line {
-    font-size: 1.4em;
-}
-
-.filename {
-    font-style: italic;
-    color: #888;
+.submit-btn {
+    margin-top: 1rem;
 }
