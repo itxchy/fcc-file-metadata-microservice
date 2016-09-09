@@ -1,5 +1,4 @@
 const compression  = require('compression');
-const multer       = require('multer');
 const express      = require('express');
 const app          = express();
 
